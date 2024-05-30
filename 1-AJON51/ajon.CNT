@@ -1,0 +1,121 @@
+:Base  ajon.HLP
+:Title AJON51-ASM Help
+1 重要資訊
+2 操作環境=Topic59
+2 系統設定=Topic60
+1 硬體結構
+2 系統方塊圖=Topic70101
+2 8051 接角圖=Topic70201
+2 硬體電路圖
+2 CPU=Topic80815
+2 Memory=Topic80816
+2 記憶體結構
+3 記憶體映像圖=Topic70301
+3 內部資料記憶體=Topic70302
+3 特殊功能暫存器=Topic70303
+1 檔案管理
+2 原始檔(*.ASM)=Topic53
+2 執行檔(*.HEX)=Topic54
+2 記錄檔(*.LST)=Topic55
+1 系統操作
+2 檔案功能
+3 新檔=Topic64
+3 讀檔=Topic90
+2 編輯功能
+3 TAB 鍵的使用=Topic66
+3 區塊設定=Topic67
+3 整列刪除=Topic81
+2 編譯功能
+3 編譯原始檔=Topic68
+3 自動載入=Topic69
+2 傳輸功能
+3 載入8051學習板=Topic71
+3 資料傳輸與接收=Topic72
+2 設定功能
+3 工作路徑=Topic73
+3 間隔時間=Topic74
+3 字型=Topic75
+3 系統=Topic76
+2 視窗功能
+3 編譯器視窗=Topic77
+1 控制暫存器
+2 程式狀態字組 PSW=Topic80101
+2 中斷致能暫存器 IE=Topic80201
+2 中斷優先權暫存器 IP=Topic80301
+2 計時/計數控制暫存器 TCON=Topic80401
+2 串列埠控制暫存器 SCON=Topic80501
+2 計時器/計數器模式控制暫存器 TMOD=Topic80601
+2 計時器/計數器2控制暫存器 T2CON=Topic80701
+2 電源控制暫存器 PCON=Topic80801
+1 指令說明
+2 算數運算指令
+3 ADD=Topic3
+3 ADDC=Topic4
+3 SUBB=Topic5
+3 INC=Topic6
+3 DEC=Topic7
+3 MUL=Topic8
+3 DIV=Topic9
+3 DA=Topic10
+2 邏輯運算指令
+3 ANL=Topic11
+3 ORL=Topic12
+3 XRL=Topic13
+3 RL=Topic16
+3 RLC=Topic17
+3 RR=Topic18
+3 RRC=Topic19
+3 SWAP=Topic20
+2 資料轉移指令
+3 MOV=Topic21
+3 MOVC=Topic22
+3 MOVX=Topic23
+3 PUSH=Topic24
+3 POP=Topic25
+3 XCH=Topic26
+3 XCHD=Topic27
+2 布林變數運算指令
+3 CLR=Topic51
+3 CPL=Topic29
+3 SETB=Topic30
+2 程式跳躍指令
+3 ACALL=Topic39
+3 LCALL=Topic40
+3 AJMP=Topic43
+3 LJMP=Topic44
+3 SJMP=Topic45
+3 JMP=Topic52
+3 RET=Topic41
+3 RETI=Topic42
+3 NOP=Topic50
+3 JZ=Topic46
+3 JNZ=Topic47
+3 JC=Topic34
+3 JNC=Topic35
+3 JB=Topic36
+3 JNB=Topic37
+3 JBC=Topic38
+3 CJNE=Topic48
+3 DJNZ=Topic49
+2 其它
+3 INCLUDE=Topic83
+3 MACRO=Topic84
+3 ENDM=Topic85
+1 中斷設定
+2 外部中斷 0=Topic70401
+2 外部中斷 1=Topic70402
+2 計時器中斷=Topic70403
+2 計數器中斷=Topic70404
+2 8051中斷向量表=Topic80811
+1 程式範例
+1 外部中斷0程式範例=Topic80810
+1 外部中斷1程式範例=Topic80812
+1 計數中斷程式範例=Topic80813
+1 計時中斷程式範例=Topic80814
+1 與 X8051 有何不同
+2 操作環境=Topic57
+2 產生檔案=Topic58
+2 使用指令=Topic82
+1 關於亞將
+2 關於亞將=Topic56
+2 授權書=Topic80802
