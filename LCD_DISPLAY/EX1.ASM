@@ -9,13 +9,13 @@
 OK:     AJMP    OK
 ;
 INIT    ACALL   DELAY
-        MOV     A,#38
+        MOV     A,#38H
         ACALL   WRINS
-        MOV     A,#38
+        MOV     A,#38H
         ACALL   WRINS
-        MOV     A,#38
+        MOV     A,#38H
         ACALL   WRINS
-        MOV     A,#38
+        MOV     A,#38H
         ACALL   WRINS
 ;
         MOV     A,#08H
@@ -77,15 +77,15 @@ DL1:    MOV     R7,#200
         DJNZ    R6,DL1
         RET
 
-DLY2:    MOV     R6,#80
+DLY2:   MOV     R6,#80
         DJNZ    R6,$
         RET
 ;=========================
 TAB1:   DB      'EE'
-        DB      '02'
+        DB      '02!!!'
         DB      10H
-TAB2:   DB      'JERR'
-        DB      'Y'
+TAB2:   DB      'JER'
+        DB      'RY'
         DB      10H
 
         END
